@@ -9,7 +9,7 @@ get '/' do
 		else
 			str = "Impar"
 		end
-		@even << "#{i} Soy #{str}"
+		@even << "#{i} Soy #{str}!"
 		#erb :index
 		#i
 	end
